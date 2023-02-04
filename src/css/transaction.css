@@ -1,0 +1,18 @@
+.transaction-list {
+
+    margin-top: 20px;
+    padding: 0;
+    display: flexbox;
+
+}
+.transaction-li {
+    list-style: none;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0, 0.12);
+    padding: 5px; 
+    color: 333;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 10px;
+    font-family: 'Prompt', sans-serif;
+}
