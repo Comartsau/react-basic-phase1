@@ -3,14 +3,20 @@
 import PropTypes from 'prop-types'; 
 
 
-import "../css/transaction.css"
+import "../css/item.css"
 
 
 const Item = ({name,cost}) => {
-    
-    return <li className="transaction-li" >{name}<span>{cost}</span></li>
 
-    }
+    const status = cost < 0 ? "expense"  : "income"
+    const symbol = cost < 0 ? "-"  : "+"
+    
+    return <li className={status} >{name}<span>{symbol } {Math.abs(cost)}</span>
+
+            </li>
+
+}
+
 
 Item.propTypes={
     name:PropTypes.string.isRequired,
