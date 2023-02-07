@@ -12,7 +12,17 @@ body {
   font-family: 'Prompt', sans-serif;
 }
 
+.button-group  {
+display: flex;
+}
+
 .container {
 margin: 30px auto;
 width: 450px;
 }
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+

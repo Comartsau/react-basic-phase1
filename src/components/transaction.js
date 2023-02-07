@@ -11,6 +11,7 @@ const Transaction = (props) => {
                 return <Item name={ele.name} cost={ele.cost} key={ele.id}/>
                 })}
             </ul>
+
         </div>
     ) 
 
